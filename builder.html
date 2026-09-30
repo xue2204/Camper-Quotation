@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Camper Builder</title>
+  <link rel="stylesheet" href="/assets/wp-content/themes/fourwh/assets/css/screen.css">
+  <link rel="stylesheet" href="/assets/wp-content/themes/fourwh/assets/css/model.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body{background:#f6f7f9}
+    #loading{position:fixed;z-index:120;top:24px;left:50%;transform:translateX(-50%);margin:0;box-shadow:0 8px 28px rgba(0,0,0,.12)}
+    .model-builder-summary{position:sticky;top:0;z-index:10}
+    .model-properties-align-bottom{cursor:pointer}
+    .truck-selector-new--sidebar--bottom{display:none!important}
+    .truck-selector-new--sidebar .step-list--icon-col{cursor:pointer}
+    .truck-selector-new--sidebar .step-list--option-list li{display:inline-block;background:#08a9e8;color:#fff;border-radius:4px;padding:3px 7px;margin:2px 4px 0 0;font-size:12px}
+    .truck-selector-new--sidebar .step-list--option-list .no-option{background:transparent;padding:0;color:inherit}
+    .item-img-wrap img.local-fitment-thumb{width:100%;height:70px;object-fit:contain;background:#fff}
+    @media(max-width:1023px){#loading{top:70px}.truck-selector-new--sidebar--bottom{display:none!important}}
+  </style>
+</head>
+<body>
+  <div id="loading" class="coverage">Loading local model catalog…</div>
+  <div id="builder"></div>
+  <script src="builder.js?v=7"></script>
+</body>
+</html>

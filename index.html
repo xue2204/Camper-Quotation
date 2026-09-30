@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Camper Configurator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="local-media.css?v=2">
+    <style>
+      .select-card .check {
+        display: grid;
+        place-items: center;
+        line-height: 1;
+        font-size: 15px;
+        font-weight: 700;
+      }
+    </style>
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="progress-panel">
+      <div class="brand">CAMPER<br><small>CONFIGURATOR</small></div>
+      <ol id="steps" class="steps"></ol>
+      <p class="local-note">Local prototype<br><span>Video module excluded</span></p>
+    </aside>
+    <section class="work-panel">
+      <header><p id="crumb">Step 1 / 5</p><button id="reset" class="text-button">Start over ×</button></header>
+      <div id="screen"></div>
+    </section>
+  </main>
+  <script src="app.js?v=8"></script>
+</body>
+</html>

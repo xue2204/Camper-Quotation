@@ -1,0 +1,17 @@
+{
+  "936": {
+    "name": "Plastic Entry Step",
+    "description": "Lightweight, durable entry step to help get in and out of your camper",
+    "price": 60,
+    "weight": 3,
+    "image": "/assets/wp-content/uploads/2018/12/Plastic-Entry-Steps-4-1200x804.jpg",
+    "hidden": false
+  },
+  "4392": {
+    "name": "Dual Rotopax with Mounting Hardware & Lock",
+    "description": "Carry extra fuel with our mounted Rotopax.  Includes two Rotopax fuel packs, mounting hardware, and lock for safe fuel storage.\n- Requirements: Exterior Gear Tracks",
+    "price": 600,
+    "weight": 18,
+    "image": "/assets/wp-content/uploads/2019/11/Dual-Rotopax-option-with-Mounting-Hardware-Lock-1200x900.jpg"
+  }
+}

@@ -1,0 +1,16 @@
+.select-card{font:inherit;color:inherit;text-align:left}
+.truck-photo,.bed-photo{display:block;height:104px;width:100%;object-fit:contain;margin:0 auto 12px}
+.fitment-list .select-card{display:grid;grid-template-columns:155px 1fr;gap:14px;min-height:160px}
+.platform-photo{width:100%;height:125px;object-fit:contain;align-self:center}
+.fitment-list .select-card h3{margin-top:0}
+.steps li{padding-left:67px}
+.steps li:before{display:none}
+.steps li:after{left:21px}
+.step-icon{position:absolute;left:0;top:0;width:44px;height:44px;border:1px solid #81959f;border-radius:50%;display:grid;place-items:center;background:transparent;color:#d7e0e4;padding:10px;cursor:pointer;transition:.18s}
+.step-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.steps li.available .step-icon:hover{border-color:#fff;color:#fff;transform:scale(1.06)}
+.steps li.active .step-icon{background:#06a9ed;border-color:#06a9ed;color:#fff;box-shadow:0 0 0 5px rgba(6,169,237,.12)}
+.steps li.done .step-icon{background:rgba(255,255,255,.08);border-color:#b8c8cf;color:#fff}
+.steps li.locked .step-icon{opacity:.42;cursor:not-allowed}
+.step-copy{display:block;padding-top:7px;line-height:1.25}
+@media(max-width:900px){.fitment-list .select-card{grid-template-columns:1fr}.platform-photo{height:150px}}
